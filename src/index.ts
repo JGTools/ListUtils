@@ -1,13 +1,12 @@
 export function remove<T>(list: T[], f: (l: T) => boolean) {
     const removed = [];
-    const nl = [];
-    for (const e of list) {
+    const temp = [...list];
+    list.length = 0;
+    for (const e of temp) {
         if (f(e))
             removed.push(e);
         else
-            nl.push(e)
+            list.push(e);
     }
-    list.length = 0;
-    Object.assign(list, nl);
     return removed;
 }
