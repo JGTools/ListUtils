@@ -31,10 +31,12 @@ import { remove } from "@jgtools/listutils";
 ## Usage
 
 ```javascript
-import {remove} from "@jgtools/listutils";
+import { remove } from "@jgtools/listutils";
 
 const list = [1, 2, 3];
-const removed = remove(list, e=>return e==2)
+const removed = remove(list, (e) => {
+  return e == 2;
+});
 console.log(list);
 console.log(removed);
 ```
