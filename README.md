@@ -23,7 +23,7 @@ import { remove } from "@jgtools/listutils";
 
 ```html
 <script type="module">
-    import  {remove} from "https://cdn.jsdelivr.net/npm/@jgtools/listutils@1.0.3/dist/index.min.js";
+    import  {remove} from "https://cdn.jsdelivr.net/npm/@jgtools/listutils@1.0.5/dist/index.min.js";
     // ...
 </script>
 ```

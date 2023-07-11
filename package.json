@@ -1,6 +1,6 @@
 {
     "name": "@jgtools/listutils",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "description": "Utility functions for lists",
     "type": "module",
     "main": "dist/index.js",
@@ -23,9 +23,6 @@
         "url": "https://github.com/JGTools/ListUtils/issues"
     },
     "homepage": "https://github.com/JGTools/ListUtils#readme",
-    "dependencies": {
-        "nanoid": "^4.0.0"
-    },
     "devDependencies": {
         "tslib": "^2.4.1"
     }
